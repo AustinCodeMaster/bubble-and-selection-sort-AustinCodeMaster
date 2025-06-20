@@ -12,6 +12,7 @@ def selection_sort(nums):
         nums[minpos]= temp
 
         print(nums)
+    return nums
 
 nums =[5,3,8,6,7,2]
 selection_sort(nums)
@@ -19,8 +20,8 @@ print(nums)
 # Output: [2, 3, 5, 6, 7,8]
 # The selection sort algorithm sorts the list in ascending order.
 
-            
-       
+
+
 
 
 

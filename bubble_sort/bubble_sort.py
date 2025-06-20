@@ -7,6 +7,8 @@ def bubble_sort(unsorted_list):
                    unsorted_list[j+1] = temp
                    
                    print(unsorted_list)
+    return unsorted_list
+
 # Define the list to be sorted
 unsorted_list =[5,3,8,6,7,2]
 bubble_sort(unsorted_list)
