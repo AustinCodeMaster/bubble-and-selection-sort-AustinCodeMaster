@@ -2,6 +2,7 @@ def selection_sort(nums):
 
     for i in range(5):
         minpos= i
+        quit
         for j in range(i,6):
             if nums[j] <nums[minpos]:
                 minpos = j
