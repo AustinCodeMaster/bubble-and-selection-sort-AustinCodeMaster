@@ -10,6 +10,8 @@ def selection_sort(nums):
         nums[i] = nums[minpos]
         nums[minpos]= temp
 
+        print(nums)
+
 nums =[5,3,8,6,7,2]
 selection_sort(nums)
 print(nums)
